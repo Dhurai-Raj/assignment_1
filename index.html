@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.o,users-scalable=no">
+
+<!--title-------------------->
+<title>Blog Section</title>
+
+<!---stylesheet-------->
+<link rel="stylesheet" href="style.css"/>
+
+<!----fav icon--------->
+<link rel="shirtcut icon" href="images/favicon.ico"/>
+
+<!----poppings---------->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+  *{ margin: 0px;
+    padding: 0px;
+    font-family: popping;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+u1{
+    list-style: none;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+/*--blog--------------------*/
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+}
+
+.blog-heading span{
+    color: #f3c3c3;
+
+}
+
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: #252525;
+    font-weight: 600;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px ;
+    flex-wrap: wrap;
+}
+
+.blog-box{
+    width: 350px;
+    background-color: aliceblue;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: #f33c3c;
+    font-size: 0.9rem;
+}
+
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+.blog-text .blog-title:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
+.blog-text p{
+    color: #ececec;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-text a:hover{
+    color: #0f0f0f ;
+    transition: all ease 0.3s;
+
+}
+@media(max-width:1250px){
+    .blog-box{
+        width: 300px;
+    }
+}
+@media(max-width:1100px){
+    .blog-box{
+        width: 70%;
+    }
+}
+@media(max-width:550px){
+    .blog-box{
+        margin: 20px 10px;
+        width:100%;
+    }
+    #blog{
+        padding: 20px;
+    }
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+  </style>
+
+
+</head>
+<body>
+
+
+    <!--==Blog-section=================-->
+       <section id="blog"></section> 
+        
+
+       <!----heading-------------------->
+
+        <div class="blog-heading">
+        
+            <span>My Recent Posts</span>
+            <h3>My Blog</h3>
+                
+        </div>
+<div>
+    <!--blog container------------------>
+       <div class="blog-container">
+
+       <!----box -1--------------------->
+       <div class="blog-box">
+
+          <!--img------------------------->
+
+          <div class="blog-img">
+            <img src="images/geothermal.jpg " alt="Blog">
+          </div>
+
+          <!--text--------------------------->
+          <div class="blog-text">
+            <span>25 December 2023 / Geothermal</span>
+            <a href="#"  class="blog-title"> What can give the energy for long term without any harmful gases production?</a>
+            <p>Geothermal resources are reservoirs of hot water that exist or are human made at varying temperatures and depths below the earth's surface. Wells, ranging from a few feet to several miles deep, can be drilled into underground reservoirs to tap steam and very hot water that can be brought to the surface for use in a variety of applications, including electricity generation, direct use, and heating and cooling.</p>
+            <a href="https://www.britannica.com/science/geothermal-energy">Read More</a>  
+        </div>
+       </div>
+    
+       <!----box -2--------------------->
+       <div class="blog-box">
+
+        <!--img------------------------->
+
+        <div class="blog-img">
+          <img src="images/blitzar.jpg " alt="Blog">
+        </div>
+
+        <!--text--------------------------->
+        <div class="blog-text">
+          <span>25 December 2023 / blitzar</span>
+          <a href="#"  class="blog-title">When an overweight neutron star slows down enough to collapse into a black hole. </a>
+          <p>In astronomy, blitzars are a hypothetical type of neutron star, specifically pulsars that can rapidly collapse into black holes if their spinning slows down. Heino Falcke and Luciano Rezzolla proposed these stars in 2013 as an explanation for fast radio bursts</p>
+          <a href="https://arxiv.org/abs/1307.1409">Read More</a>  
+      </div>
+     </div>
+       <!----box -3--------------------->
+       <div class="blog-box">
+
+        <!--img------------------------->
+
+        <div class="blog-img">
+          <img src="images/nanozymes.jpg " alt="Blog">
+        </div>
+
+        <!--text--------------------------->
+        <div class="blog-text">
+          <span>25 December 2023 / nanozymes</span>
+          <a href="#"  class="blog-title">A series of nanomaterials with enzyme-mimetic activities that can proceed with the catalytic reactions of natural enzymes</a>
+          <p> Nanozymes have emerged to be a rapid-growing and diverse field attracting hundreds of research groups globally resulting in thousands of publications.[1-6] Such a growth testifies the broad interest in using nanomaterials to enhance and even replace natural enzymes for various applications from biosensors to therapeutics</p>
+          <a href="https://jnanobiotechnology.biomedcentral.com/articles/10.1186/s12951-022-01295-y">Read More</a>  
+      </div>
+        
+     </div>
+    </div>
+
+
+
+
+
+
+
+
+    </body>
+</html>
